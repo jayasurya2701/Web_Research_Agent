@@ -80,3 +80,21 @@ SERPAPI_API_KEY=your_serpapi_key
 streamlit run app.py
 ```
 
+## 📂 Tech Stack
+
+| Technology      | Purpose                           |
+|-----------------|-----------------------------------|
+| **Python**      | Core programming language         |
+| **Streamlit**   | UI framework                      |
+| **Groq LLM**    | AI query analysis & summarization |
+| **SerpAPI**     | Google search results             |
+| **BeautifulSoup** | HTML parsing                    |
+| **Requests**    | Web scraping                      |
+| **Dotenv**      | API key management                |
+
+---
+
+### 🚀 Live Demo
+
+🔗 [Click here to try the Web Research Agent](https://webresearchagent.streamlit.app/)
+
