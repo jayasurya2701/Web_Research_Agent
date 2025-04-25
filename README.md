@@ -16,4 +16,6 @@ An AI-powered research assistant that automates web research by understanding qu
 ---
 
 ## 🧠 Project Structure
+![Web Research Agent Architecture](assets/architecture.png)
+
 
