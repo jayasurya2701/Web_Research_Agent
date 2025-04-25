@@ -11,7 +11,6 @@ def extract_relevant_content(url, max_paragraphs=10):
         article = soup.find('article') or soup.find('div', {'class': 'content'}) or soup.find('main')
         paragraphs = article.find_all('p') if article else soup.find_all('p')
         
-        # Limit the number of paragraphs extracted
         text = " ".join(p.get_text() for p in paragraphs[:max_paragraphs])
         return text.strip()
     except Exception as e:
